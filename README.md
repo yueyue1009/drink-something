@@ -1,24 +1,12 @@
-# drinksomething
+# ReadMe
 
-## Project setup
-```
-npm install
-```
+## 關於我的APP
+* 我寫了一個可以使用選單來選擇自己想要點的飲料的app，除了最基本的飲料品項外，使用者還能下備註，刪除、更新訂單。也可以利用按鈕來根據名字、價格排序（用名字排序時似乎會因為使用中文而出錯）。除了上述基本要求，我還讓每個品項都有自己的示意圖，並且下訂單時若list中已經有品項、甜度和冰塊完全相同的order時，會變為增加該order的數量而不是增加一個新的order，最後我多放了一個total price讓使用者能知道現在list的總金額是多少。
 
-### Compiles and hot-reloads for development
-```
+## 關於這次test
+* 由於我之前並沒有學過寫vue，所以先花了一些時間把tutorial看過一次，在開始寫這個app時也是邊查邊寫，所以可能不是像note裡所說大概花兩個小時一樣那麼短，code也不是很整潔，希望您不要介意。
+
+## 運行方式
+```shell=
 npm run serve
 ```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
